@@ -1,0 +1,115 @@
+.intro {
+  max-width: 51.875rem;
+  max-height: 30.125rem;
+  display: flex;
+  flex-direction: column;
+  margin: 0 0 5.75rem 9.25rem;
+}
+
+.intro__title {
+  font-family: "Inter";
+  font-size: 54px;
+  font-weight: 900;
+  line-height: 58px;
+  text-align: left;
+  color: #fff;
+  max-width: 51.875rem;
+  max-height: 7.25rem;
+  margin-top: 0;
+  margin-bottom: 2.5rem;
+}
+
+.intro__quote {
+  font-family: "Inter";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 34px;
+  text-align: left;
+  color: #fff;
+  margin-top: 0;
+  margin-bottom: 0.625rem;
+  max-width: 46.125rem;
+}
+
+.intro__quote_author {
+  font-family: "Inter";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 34px;
+  text-align: right;
+  color: #fff;
+  max-width: 45.75rem;
+  margin: 0 0 2rem 9.25rem;
+}
+
+.intro__text {
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26.08px;
+  text-align: left;
+  color: #fff;
+  max-width: 45.125rem;
+  max-height: 11.375rem;
+  margin: 0 0 5.75rem 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .intro {
+    max-width: 45rem;
+    max-height: 30.625rem;
+    margin: auto;
+  }
+
+  .intro__title {
+    max-width: 44.188rem;
+    max-height: 6.125rem;
+    font-size: 45px;
+    line-height: 49px;
+    margin-bottom: 3.125rem;
+  }
+
+  .intro__quote_author {
+    max-width: 45rem;
+    max-height: 2.125rem;
+  }
+}
+
+@media screen and (max-width: 544px) {
+  .intro {
+    max-height: 100%;
+  }
+
+  .intro__title {
+    max-width: 100%;
+    max-height: 8.75rem;
+    font-size: 32px;
+    line-height: 35px;
+    margin: 0 auto 2.5rem;
+    padding: 16px;
+  }
+
+  .intro__quote {
+    max-width: 100%;
+    max-height: 11.25rem;
+    font-size: 24px;
+    line-height: 30px;
+    margin: 0 auto 0.625rem;
+    padding: 16px;
+  }
+  .intro__quote_author {
+    font-size: 24px;
+    max-width: 100%;
+    margin-bottom: 32px;
+    padding: 16px;
+  }
+
+  .intro__text {
+    font-size: 16px;
+    line-height: 26.08px;
+    max-width: 100%;
+    max-height: 27.625rem;
+    margin: 0 auto 4rem;
+    padding: 16px;
+  }
+}

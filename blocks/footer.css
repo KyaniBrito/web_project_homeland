@@ -1,0 +1,21 @@
+.footer {
+  margin: auto;
+  display: flex;
+}
+
+.footer__copyright {
+  color: #fff;
+  margin: 0 auto 1.5rem;
+}
+
+@media screen and (max-width: 1024px) {
+  .footer__copyright {
+    margin-top: 5.5rem;
+  }
+}
+
+@media screen and (max-width: 544px) {
+  .footer__copyright {
+    margin-top: 0;
+  }
+}
