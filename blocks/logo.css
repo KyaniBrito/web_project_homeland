@@ -1,0 +1,26 @@
+.logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 2.125rem auto 5.625rem;
+  width: 15.875rem;
+}
+
+.logo__image {
+  margin-bottom: 1.375rem;
+  margin: auto;
+}
+
+@media screen and (max-width: 1024px) {
+  .logo__image {
+    margin-bottom: 5.625rem;
+  }
+}
+
+@media screen and (max-width: 544px) {
+  .logo__image {
+    max-width: 11.75rem;
+    margin: 20px auto 3.125rem;
+  }
+}
