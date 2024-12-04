@@ -1,3 +1,9 @@
+.place {
+  display: flex;
+  flex-direction: column;
+  padding: 0 148px;
+}
+
 .place__content {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -32,7 +38,6 @@
   gap: 0px;
   opacity: 0px;
   grid-area: image;
-  box-shadow: 10px 10px 25px 0px #00000080;
 }
 
 .place__image:hover {
@@ -106,6 +111,10 @@
 }
 
 @media screen and (max-width: 1024px) {
+  .place {
+    padding: 0 24px;
+  }
+
   .place__content {
     grid-template-columns: 340px 1fr;
     grid-template-rows: 1fr 340px;
@@ -119,6 +128,10 @@
 }
 
 @media screen and (max-width: 544px) {
+  .place {
+    padding: 0;
+  }
+
   .place__content {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
