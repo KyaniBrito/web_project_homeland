@@ -81,7 +81,7 @@
   font-family: Inter;
   font-size: 12px;
   font-weight: 400;
-  line-height: 1.21;
+  line-height: 14.52px;
   letter-spacing: 0.12em;
   text-align: left;
   margin: 0;
@@ -120,9 +120,42 @@
     gap: 28px;
   }
 
+  .place__title {
+    font-size: 42px;
+    line-height: 46px;
+    padding: 0 24px;
+  }
+
+  .place__content:last-child {
+    margin-bottom: 90px;
+  }
+
   .place__image {
-    max-width: unset;
-    max-height: unset;
+    width: 340px;
+    height: 340px;
+  }
+
+  .place__artist-text {
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  .place__text {
+    font-size: 16px;
+    line-height: 26.08px;
+  }
+
+  .place__button {
+    width: 355px;
+    font-size: 18px;
+    line-height: 21.78px;
+    margin-top: 20px;
+    text-align: center;
+    box-sizing: border-box;
+  }
+
+  .place__button:last-child {
+    margin-bottom: 90px;
   }
 }
 
